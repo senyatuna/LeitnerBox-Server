@@ -1,0 +1,180 @@
+html {
+    background-color: #000;
+}
+
+body {
+    margin-top: 48px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.introduction {
+    display: flex;
+    gap: 16px;
+}
+
+.introduction img {
+    height: auto;
+    width: 60%;
+}
+
+.introduction .appicon {
+    width: 72px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.introduction p {
+    margin: 0px;
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 8px;
+}
+
+.titleAccent {
+    background: -webkit-linear-gradient(#00ffea, #94cec9);
+    font-size: 48px;
+}
+
+.titleSecondary {
+    background: -webkit-linear-gradient(#ffe100, #cac38d);
+    font-size: 36px;
+}
+
+.titleTertiary {
+    background: -webkit-linear-gradient(#0c85d6, #7bbde1);
+    font-size: 32px;
+}
+
+.appstore img {
+    max-width: 226px;
+    margin-top: 16px;
+    margin-left: -16px;
+}
+
+.feature {
+    margin: 96px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.feature .title {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0px !important;
+}
+
+.feature .description {
+    font-size: 16px;
+    color: #b7b7b7;
+
+    font-weight: 500;
+    margin: 8px !important;
+}
+
+.feature img {
+    max-width: 60%;
+    margin-top: 16px;
+}
+
+.highlight {
+    color: #fff;
+}
+
+footer {
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+footer div {
+    align-items: center;
+    text-align: center;
+}
+
+footer div a {
+    font-size: small;
+    color: #898989;
+    text-decoration: none;
+}
+
+.accent {
+    color: #00ffea;
+}
+
+.text-secondary {
+    color: #898989;
+}
+
+.card-caontainer {
+    margin-top: 48px;
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    width: 30%;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #272727;
+    border-color: #545858 1px;
+}
+
+.card-title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-description {
+    color: gray;
+}
+
+.card-img-container {
+    background-color: #000;
+    border-radius: 12px;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img {
+    margin-top: 2px;
+    width: 28px;
+    height: 28px;
+}
+
+#privacy-update h4 {
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+}
+
+#privacy-update p {
+    font-size: smaller;
+    color: rgb(198, 198, 198);
+    margin-top: 8px;
+}
+
+.row {
+    margin-top: 48px;
+}
+
+.row h2 {
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.row p {
+    color: #d2d2d2;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
